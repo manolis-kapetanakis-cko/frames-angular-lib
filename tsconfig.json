@@ -17,7 +17,17 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "manos-afrm": [
+        "dist/manos-afrm/manos-afrm",
+        "dist/manos-afrm"
+      ],
+      "manos-ang": [
+        "dist/manos-ang/manos-ang",
+        "dist/manos-ang"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

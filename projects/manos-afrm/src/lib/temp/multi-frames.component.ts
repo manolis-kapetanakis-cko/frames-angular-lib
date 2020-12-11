@@ -1,15 +1,11 @@
-import { Component } from '@angular/core';
-import { CkoFrames } from 'manos-afrm';
+import { Component, OnInit } from '@angular/core';
+import { CkoFrames } from './utils/frames';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'multi-frames',
+  template: ``
 })
-export class AppComponent {
-  title = 'frames-angular-lib';
-
-
+export class MultiFramesComponent implements OnInit {
   private Frames = undefined;
   private errors = {};
   public cardToken: string;

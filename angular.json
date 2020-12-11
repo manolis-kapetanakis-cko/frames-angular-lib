@@ -119,6 +119,86 @@
           }
         }
       }
+    },
+    "manos-afrm": {
+      "projectType": "library",
+      "root": "projects/manos-afrm",
+      "sourceRoot": "projects/manos-afrm/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/manos-afrm/tsconfig.lib.json",
+            "project": "projects/manos-afrm/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/manos-afrm/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/manos-afrm/src/test.ts",
+            "tsConfig": "projects/manos-afrm/tsconfig.spec.json",
+            "karmaConfig": "projects/manos-afrm/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/manos-afrm/tsconfig.lib.json",
+              "projects/manos-afrm/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "manos-ang": {
+      "projectType": "library",
+      "root": "projects/manos-ang",
+      "sourceRoot": "projects/manos-ang/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/manos-ang/tsconfig.lib.json",
+            "project": "projects/manos-ang/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/manos-ang/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/manos-ang/src/test.ts",
+            "tsConfig": "projects/manos-ang/tsconfig.spec.json",
+            "karmaConfig": "projects/manos-ang/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/manos-ang/tsconfig.lib.json",
+              "projects/manos-ang/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "frames-angular-lib"
 }
