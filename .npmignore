@@ -1,0 +1,6 @@
+/src
+/e2e
+/node_modules
+README.md
+package-lock.json
+**/.DS_Store

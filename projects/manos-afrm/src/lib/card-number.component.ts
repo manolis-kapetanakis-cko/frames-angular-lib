@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'card-number',
-  template: `<div class="card-number-frame"></div>`,
-  styleUrls: ['./global/global.css']
+  template: `<div class="card-number-frame"></div>`
 })
 export class CardNumberComponent implements OnInit {
 
