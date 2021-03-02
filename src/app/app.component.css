@@ -169,3 +169,37 @@ _:-ms-fullscreen, #icon-card-number, _:-ms-fullscreen, #icon-expiry-date, _:-ms-
   margin-top: 2px;
   margin-right: 10px;
 }
+
+cvv, expiry-date, card-number {
+  padding-left: 40px;
+  border: solid 1px #13395E;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 rgba(19, 57, 94, 0.2);
+}
+
+card-number {
+  display: flex;
+}
+
+/* CSS unused? */
+
+.frame {
+  opacity: 0;
+}
+
+.frame--activated {
+  opacity: 1;
+  border: solid 1px #13395E;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 rgba(19, 57, 94, 0.2);
+}
+
+.frame--activated.frame--focus {
+  border: solid 1px #13395E;
+  box-shadow: 0 2px 5px 0 rgba(19, 57, 94, 0.15);
+}
+
+.frame--activated.frame--invalid {
+  border: solid 1px #D96830;
+  box-shadow: 0 2px 5px 0 rgba(217, 104, 48, 0.15);
+}
