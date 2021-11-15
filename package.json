@@ -1,6 +1,6 @@
 {
-  "name": "frames-angular-lib",
-  "version": "0.0.0",
+  "name": "frames-angular-beta",
+  "version": "0.0.4",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
