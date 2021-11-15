@@ -25,4 +25,4 @@ import { CvvComponent } from './cvv.component';
     // PayButtonComponent
   ]
 })
-export class ManosAfrmModule { }
+export class AngularFramesBeta { }

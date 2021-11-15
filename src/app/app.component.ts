@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CkoFrames } from 'manos-afrm';
+import { CkoFrames } from 'frames-angular-beta';
 
 @Component({
   selector: 'app-root',

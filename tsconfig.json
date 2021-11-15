@@ -19,14 +19,10 @@
       "dom"
     ],
     "paths": {
-      "manos-afrm": [
-        "dist/manos-afrm/manos-afrm",
-        "dist/manos-afrm"
+      "frames-angular-beta": [
+        "dist/frames-angular-beta/frames-angular-beta",
+        "dist/frames-angular-beta"
       ],
-      "manos-ang": [
-        "dist/manos-ang/manos-ang",
-        "dist/manos-ang"
-      ]
     }
   },
   "angularCompilerOptions": {

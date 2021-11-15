@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/manos-afrm",
+  "dest": "../../dist/frames-angular-beta",
   "lib": {
     "entryFile": "src/public-api.ts"
   }

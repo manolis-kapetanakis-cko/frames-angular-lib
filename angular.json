@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "frames-angular-lib": {
@@ -120,38 +120,38 @@
         }
       }
     },
-    "manos-afrm": {
+    "frames-angular-beta": {
       "projectType": "library",
-      "root": "projects/manos-afrm",
-      "sourceRoot": "projects/manos-afrm/src",
+      "root": "projects/frames-angular-beta",
+      "sourceRoot": "projects/frames-angular-beta/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/manos-afrm/tsconfig.lib.json",
-            "project": "projects/manos-afrm/ng-package.json"
+            "tsConfig": "projects/frames-angular-beta/tsconfig.lib.json",
+            "project": "projects/frames-angular-beta/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/manos-afrm/tsconfig.lib.prod.json"
+              "tsConfig": "projects/frames-angular-beta/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/manos-afrm/src/test.ts",
-            "tsConfig": "projects/manos-afrm/tsconfig.spec.json",
-            "karmaConfig": "projects/manos-afrm/karma.conf.js"
+            "main": "projects/frames-angular-beta/src/test.ts",
+            "tsConfig": "projects/frames-angular-beta/tsconfig.spec.json",
+            "karmaConfig": "projects/frames-angular-beta/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/manos-afrm/tsconfig.lib.json",
-              "projects/manos-afrm/tsconfig.spec.json"
+              "projects/frames-angular-beta/tsconfig.lib.json",
+              "projects/frames-angular-beta/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -160,38 +160,38 @@
         }
       }
     },
-    "manos-ang": {
+    "frames-angular-beta": {
       "projectType": "library",
-      "root": "projects/manos-ang",
-      "sourceRoot": "projects/manos-ang/src",
+      "root": "projects/frames-angular-beta",
+      "sourceRoot": "projects/frames-angular-beta/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/manos-ang/tsconfig.lib.json",
-            "project": "projects/manos-ang/ng-package.json"
+            "tsConfig": "projects/frames-angular-beta/tsconfig.lib.json",
+            "project": "projects/frames-angular-beta/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/manos-ang/tsconfig.lib.prod.json"
+              "tsConfig": "projects/frames-angular-beta/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/manos-ang/src/test.ts",
-            "tsConfig": "projects/manos-ang/tsconfig.spec.json",
-            "karmaConfig": "projects/manos-ang/karma.conf.js"
+            "main": "projects/frames-angular-beta/src/test.ts",
+            "tsConfig": "projects/frames-angular-beta/tsconfig.spec.json",
+            "karmaConfig": "projects/frames-angular-beta/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/manos-ang/tsconfig.lib.json",
-              "projects/manos-ang/tsconfig.spec.json"
+              "projects/frames-angular-beta/tsconfig.lib.json",
+              "projects/frames-angular-beta/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -199,6 +199,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "frames-angular-lib"
 }

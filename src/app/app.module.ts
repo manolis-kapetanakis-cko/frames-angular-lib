@@ -3,9 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AngularFramesBeta } from 'frames-angular-beta';
 
-import { ManosAfrmModule } from "manos-afrm";
-// import { FramesComponent } from "manos-afrm";
 
 @NgModule({
   declarations: [
@@ -14,8 +13,7 @@ import { ManosAfrmModule } from "manos-afrm";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ManosAfrmModule,
-    // FramesComponent
+    AngularFramesBeta
   ],
   providers: [],
   bootstrap: [AppComponent]
