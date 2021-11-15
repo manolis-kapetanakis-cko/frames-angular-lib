@@ -159,46 +159,6 @@
           }
         }
       }
-    },
-    "frames-angular-beta": {
-      "projectType": "library",
-      "root": "projects/frames-angular-beta",
-      "sourceRoot": "projects/frames-angular-beta/src",
-      "prefix": "lib",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
-          "options": {
-            "tsConfig": "projects/frames-angular-beta/tsconfig.lib.json",
-            "project": "projects/frames-angular-beta/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "projects/frames-angular-beta/tsconfig.lib.prod.json"
-            }
-          }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/frames-angular-beta/src/test.ts",
-            "tsConfig": "projects/frames-angular-beta/tsconfig.spec.json",
-            "karmaConfig": "projects/frames-angular-beta/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/frames-angular-beta/tsconfig.lib.json",
-              "projects/frames-angular-beta/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
-        }
-      }
     }
   },
   "defaultProject": "frames-angular-lib"
