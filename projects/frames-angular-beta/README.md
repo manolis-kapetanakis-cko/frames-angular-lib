@@ -1,11 +1,8 @@
-# ManosAfrm
+# Frames Angular Beta
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
 
-## Code scaffolding
 
-Run `ng generate component component-name --project frames-angular-beta` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project frames-angular-beta`.
-> Note: Don't forget to add `--project frames-angular-beta` or else it will be added to the default project in your `angular.json` file. 
 
 ## Build
 

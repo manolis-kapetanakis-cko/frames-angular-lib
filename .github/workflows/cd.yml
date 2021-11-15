@@ -16,6 +16,6 @@ jobs:
                   registry-url: https://registry.npmjs.org/
             - run: npm ci
             - run: npm run build
-            - run: cd dist/manos-afrm && npm publish
+            - run: cd dist/frames-angular-beta && npm publish
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
