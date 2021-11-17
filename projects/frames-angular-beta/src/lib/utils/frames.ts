@@ -7,7 +7,6 @@ export class CkoFrames {
     let myWindowFrames = myWindowObject.frames as any;
     this.Frames = myWindowFrames.Frames as any;
     this.config = config;
-    console.log(this.Frames)
   }
 
   init() {
